@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Calibre-Regular";
+  font-size: 22px;
+  background-color: #0a192f;
+  color: #8892b0;
+}
+
+h1 {
+  font-size: 90px;
+  font-family: "Calibre-SemiBold";
+  color: #ccd6f6;
+  line-height: 2px;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #8892b0;
+  font-family: "Calibre-Regular";
+  font-size: 40px;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: "SFMono";
+  color: #55d9be;
+}
+
+a {
+  font-family: "SFMono";
+  color: #55d9be;
+}
+
+.top-container {
+  color: #406882;
+  position: relative;
+  margin-top: 100px;
+}
+
+.middle-container {
+  margin-top: 50px;
+  position: relative;
+}
+
+.bottom-container {
+  position: relative;
+  margin-top: 100px;
+}
+
+.pro {
+  font-family: "SFMono";
+  color: #55d9be;
+  font-size: 30px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.skill-row {
+  margin: 75px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.img-row-right {
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+}
+
+.img-row-left {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.img-bottom-container {
+  margin: 0 10px;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-color: #ccd6f6;
+  border-width: 10px;
+  height: 0px;
+  width: 5%;
+  margin: 50px auto;
+}
+
+.btn {
+  line-height: 4;
+  padding: 20px;
+  border-radius: 3px;
+  border-color: #55d9be;
+  border: 1px solid;
+}
+
+.title {
+  font-family: "Calibre-Semibold";
+  font-size: 50px;
+  margin:0;
+}
+
