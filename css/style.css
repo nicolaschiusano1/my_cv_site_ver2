@@ -1,10 +1,10 @@
 body {
-  margin: 0;
-  text-align: center;
-  font-family: "Calibre-Regular";
-  font-size: 22px;
   background-color: #0a192f;
   color: #8892b0;
+  font-family: "Calibre-Regular";
+  font-size: 22px;
+  text-align: center;
+  margin: 0;
 }
 
 h1 {
@@ -12,7 +12,7 @@ h1 {
   font-family: "Calibre-SemiBold";
   color: #ccd6f6;
   line-height: 2px;
-  margin: 50px auto 0 auto;
+  margin: 50px auto 20px auto;
 }
 
 h2 {
@@ -20,6 +20,8 @@ h2 {
   font-family: "Calibre-Regular";
   font-size: 40px;
   font-weight: normal;
+  width: 60%;
+  margin: auto;
 }
 
 h3 {
@@ -32,20 +34,21 @@ a {
   color: #55d9be;
 }
 
+p {
+  line-height: 2;
+}
 .top-container {
   color: #406882;
   position: relative;
-  margin-top: 100px;
+  padding-top: 100px;
 }
 
 .middle-container {
-  margin-top: 50px;
-  position: relative;
+  margin: 50px auto;
 }
 
 .bottom-container {
-  position: relative;
-  margin-top: 100px;
+  padding: 50px 0 20px;
 }
 
 .pro {
@@ -57,12 +60,12 @@ a {
 .top-cloud {
   position: absolute;
   right: 300px;
-  top: 50px;
+  top: 40px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px;
 }
 
@@ -70,23 +73,22 @@ a {
   margin: 75px auto;
   width: 50%;
   text-align: left;
-  line-height: 2;
 }
 
 .img-row-right {
-  width: 30%;
+  width: 25%;
   float: right;
   margin-left: 30px;
 }
 
 .img-row-left {
-  width: 30%;
+  width: 25%;
   float: left;
   margin-right: 30px;
 }
 
 .img-bottom-container {
-  margin: 0 10px;
+  margin: 0 5px;
 }
 
 hr {
@@ -109,6 +111,15 @@ hr {
 .title {
   font-family: "Calibre-Semibold";
   font-size: 50px;
-  margin:0;
+  margin: auto;
 }
 
+.intro {
+  width: 30%;
+  margin: 20px auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 10px auto 50px auto;
+}
